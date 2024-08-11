@@ -430,3 +430,54 @@ img {
     border-radius: 50%;
   }
   
+  .post__user {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--text-dark);
+    text-decoration: none;
+    text-transform: lowercase;
+  }
+  .post__user:hover {
+    text-decoration: underline;
+  }
+  .post__more-options {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .post__content {
+    display: flex;
+    position: relative;
+  }
+  .post__medias {
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: auto;
+  
+    width: 100%;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+  }
+  .post__medias::-webkit-scrollbar {
+    display: none;
+  }
+  .post__media {
+    width: 100%;
+    flex: none;
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+  }
+  
+  .post__footer {
+    background-color: var(--primary);
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding: 0 4px;
+  }
+  .post__buttons {
+    display: flex;
+    position: relative;
+  }
