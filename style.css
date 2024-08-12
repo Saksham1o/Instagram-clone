@@ -51,10 +51,168 @@ textarea {
 /* General Styles */
 body {
   min-height: 100vh;
-
+  background-color: black;
+  color: #fff;  
   display: flex;
   flex-direction: column;
   overflow-y: auto;
+}
+
+.logo {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+.sidebar {
+  width: 250px;
+}
+
+.main {
+  flex: 1;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.profile-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #ccc;
+}
+
+.profile-name {
+  font-weight: bold;
+}
+
+.suggestions {
+  margin-top: 20px;
+}
+
+.suggestions-title {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.suggestion {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.suggestion-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #ccc;
+}
+
+.suggestion-name {
+  font-weight: bold;
+}
+
+.suggestion-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 8px 12px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.post {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.post-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.post-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #ccc;
+}
+
+.post-username {
+  font-weight: bold;
+}
+
+.post-content {
+  font-size: 16px;
+}
+
+.post-image {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.post-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.post-action {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.post-action-icon {
+  font-size: 20px;
+  color: #ccc;
+}
+
+.post-likes {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.post-comments {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.post-comment {
+  margin-bottom: 5px;
+}
+
+.footer {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.footer-copyright {
+  font-size: 12px;
+  color: #ccc;
 }
 
 svg {
