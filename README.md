@@ -8,3 +8,4 @@ faced some problem in properly positoning the buttons for the stories and post s
 
 Overall , this was a great project in practicing my HTML , CSS and JavaScript skills .
 I hope everyone will find this project usefull and good . (so much hardwork done for this project).
+I have added this : https://saksham1o.github.io/Instagram-clone/
