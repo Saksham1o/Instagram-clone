@@ -1,5 +1,5 @@
 # Instagram-clone
-This is a Simple instagram clone that i have using HTML , CSS and JavaScript .
+This is a Simple instagram clone that i have made using HTML , CSS and JavaScript .
 It includes a header with a search bar and theme togle button , section for stories ,
 section for postss with a side menu for profile suggestions and i have used default profile to indicate all people as i don't want to include any person's picture .
 
